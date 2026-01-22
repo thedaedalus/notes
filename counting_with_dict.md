@@ -20,7 +20,7 @@ Pattern: Counting Things with a Dictionary
     counts[item] = counts.get(item, 0) + 1
     ```
 
-    - `counts.get(item, 0):
+    - `counts.get(item, 0)`:
       - returns the current count if `item` is aldready in the dictionary
       - otherwise returns `0`
     - Then you add `1` and store it back
