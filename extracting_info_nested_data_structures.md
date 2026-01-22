@@ -5,7 +5,7 @@ When working with data that contains dictionaries within dictionaries, lists wit
 1.**Understand the Structure**: Before writing code, visualize or sketch out the nested relationships. What does a top-level item contain? What's inside that?
 
 - **Dictionaries**: Access elements by `key` (e.g., `my_dict["key"]`).
-- **Lists**: Access elements by `index` (e.g., `my_list[0]`).
+- **Lists and Tuples**: Access elements by `index` (e.g., `my_list[0]`).
 
 2.**Iterate Through Each Layer**:
 
@@ -24,7 +24,7 @@ When working with data that contains dictionaries within dictionaries, lists wit
 
 - `data["level1_dict_key"]["level2_dict_key"]`
 - `data["list_key"][0]["dict_in_list_key"]`
-- `data[0][1]` (for a list of lists)
+- `data[0][1]` (for a list of lists and Tuples of Tuples)
 
 5.Recursion for Unknown Depth:
 
