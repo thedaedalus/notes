@@ -44,3 +44,14 @@ def count_nested_levels(nested_documents, target_document_id, level=1):
             return found_level
     return -1
 ```
+
+## queue implementation
+```Python
+def push(self, item):
+    self.items.append(item)     # tail at the end
+
+def pop(self):
+    if not self.items:
+        return None
+    return self.items.pop(0)    # head at the front
+```
