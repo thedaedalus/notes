@@ -51,18 +51,18 @@ class Queue:
     def __init__(self):
         self.items = []
 
-def push(self, item):
-    self.items.append(item)   # tail at the end
+    def push(self, item):
+        self.items.append(item)   # tail at the end
 
-def pop(self):
-    if not self.items:
-        return None
-    return self.items.pop(0)  # head at index 0
+    def pop(self):
+        if not self.items:
+            return None
+        return self.items.pop(0)  # head at index 0
 
-def peek(self):
-    if not self.items:
-        return None
-    return self.items[0]      # look at head, index 0
+    def peek(self):
+        if not self.items:
+            return None
+        return self.items[0]      # look at head, index 0
 
     def size(self):
         return len(self.items)
