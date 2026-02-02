@@ -60,10 +60,46 @@ def postorder(node, visited):
 
     return visited
 ```
-
 when apart of a class no need to the explicit check on the node. but you need checks on the left and right branches
 
-### 4. As a method on the class
+### 4. Exists(node,left,right)
+
+```Python
+def exists(self, val):
+    if val == self.val:
+        return True
+    elif self.val > val:
+        if self.left is not None:
+            return self.left.exists(val)
+        else:
+            return False
+    elif self.val < val:
+        if self.right is not None:
+            return self.right.exists(val)
+        else:
+            return False
+    else:
+        return False
+  ```
+
+**What it does (conceptually)**:
+
+- Checks if a value is in a Binary Search Tree using recursion.
+- At each node:
+
+>1. If val == self.val: found it → return True.
+>2. If val is smaller than self.val: search the left subtree.
+
+>>- If there is no left child, it can’t be in the tree → False.
+
+>3. If val is larger than self.val: search the right subtree.
+
+>>- If there is no right child, it can’t be in the tree → False.
+
+- Because of BST ordering, you never need to search both sides—only one branch each step.
+
+
+### 5. As a method on the class
 
 When it's a method, you mentally subsitute ``node`` with ``self``. and drop the explicit ``node is None`` check, replacing it with guards on ``self.left``/``self.right``:
 
