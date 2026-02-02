@@ -126,24 +126,27 @@ def preorder(node, visited):
 ### Using None as a sentinel
 
 - ``None`` is Python’s “no value here” marker.
+
 - In trees, ``None`` commonly means:
+
 >- “This child doesn’t exist.”
+
 - Patterns:
 
 >- Checking for a missing node:
-
+>
 >```Python
 >if node is None:
 >    return
 >```
-
+>
 >- Checking if a child exists:
-
+>
 >```Python
 >if node.left is not None:
 >       ...
 >```
-
+>
 >-Using ``val=None`` as “empty root before first insert”.
 
 ### Truthy / Falsy checks
@@ -163,6 +166,7 @@ def preorder(node, visited):
 >- ``if x is not None:`` is stricter: it only checks for ``None``, not for other falsy values like ``0``.
 
 Examples:
+
 ```Python
 if x:              # True if x is truthy
     ...
