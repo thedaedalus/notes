@@ -45,6 +45,8 @@ class Node:
         return visited
 ```
 
+when apart of a class no need to the explicit check on the node. but you need checks on the left and right branches
+
 ### 3. Postorder (left, right, node)
 
 ```Python
@@ -58,6 +60,8 @@ def postorder(node, visited):
 
     return visited
 ```
+
+when apart of a class no need to the explicit check on the node. but you need checks on the left and right branches
 
 ### 4. As a method on the class
 
