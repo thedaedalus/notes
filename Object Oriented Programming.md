@@ -1,43 +1,20 @@
-# Object Oriented Programming
-<!--toc:start-->
-- [Object Oriented Programming](#object-oriented-programming)
-  - [Core Object Oriented Programming Concepts](#core-object-oriented-programming-concepts)
-    - [1. Class and Object](#1-class-and-object)
-    - [2. Attributes and Methods](#2-attributes-and-methods)
-    - [3. Encapsulation](#3-encapsulation)
-    - [4. Inheritance](#4-inheritance)
-    - [5. Polymorphism](#5-polymorphism)
-    - [6. Abstraction](#6-abstraction)
-    - [7. Composition](#7-composition)
-    - [8. Method Types (Python-specific)](#8-method-types-python-specific)
-  - [Geometry concepts used](#geometry-concepts-used)
-<!--toc:end-->
 ## Core Object Oriented Programming Concepts
-
 ### 1. Class and Object
-
-
 - **Class**: a blueprint (defines data + behaviour).
 - **Object/ Instance**: a concrete thing created from a class.
-- In Python:
-code block
-
+	- In Python:
 ```python
- class Player:
+	class Player:
     def __init__(self, name):
         self.name = name
-
- p = Player("Alice")  # p is an object
- ```
-
+p = Player("Alice")  # p is an object
+```
 
 ### 2. Attributes and Methods
 
 - **Attributes**: data stored on an object (fields).
 - **Methods**: functions defined inside a class that operate on the object.
 - `self` refers to “this particular instance”
-
-
 ### 3. Encapsulation
 
 - Group related data and behavior together in a class.
@@ -52,9 +29,6 @@ code block
 - Parent/base/superclass → child/subclass.
 - Child class inherits attributes and methods from parent class.
 - In Python:
-
-#### Code block
-
 ```python
 class Enemy:
      pass
@@ -64,11 +38,9 @@ class Dragon(Enemy):  # Dragon is an Enemy
 ```
 
 - Use `super()` to call parent methods:
-
 ```python
 super().__init__(...)
 ```
-
 ### 5. Polymorphism
 
 - Different classes can provide the same method name but with different implementations.
