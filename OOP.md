@@ -20,6 +20,7 @@
 - **Class**: a blueprint (defines data + behaviour).
 - **Object/ Instance**: a concrete thing created from a class.
 - In Python:
+code block
 
 ```python
  class Player:
@@ -28,6 +29,7 @@
 
  p = Player("Alice")  # p is an object
  ```
+
 
 ### 2. Attributes and Methods
 
@@ -50,6 +52,8 @@
 - Parent/base/superclass → child/subclass.
 - Child class inherits attributes and methods from parent class.
 - In Python:
+
+#### Code block
 
 ```python
 class Enemy:
