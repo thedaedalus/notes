@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Adjacency List Graph.md",
-                "mode": "preview",
+                "file": "Programming notes/for loops.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Adjacency List Graph"
+              "title": "for loops"
             }
           }
         ]
@@ -41,7 +41,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Adjacency List Graph.md",
+                "file": "Programming notes/for loops.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Adjacency List Graph"
+              "title": "Outline of for loops"
             }
           },
           {
@@ -197,15 +197,21 @@
   },
   "active": "5f462475b9625905",
   "lastOpenFiles": [
-    "red-black Trees.md",
-    "Adjacency List Graph.md",
-    "extracting_info_nested_data_structures.md",
-    "Object Oriented Programming.md",
-    "Binary Trees.md",
-    "Counting with dictionary.md",
-    "methods.md",
+    "Programming notes/examples.md",
+    "Programming notes/Counting with dictionary.md",
+    "Programming notes/for loops.md",
+    "Programming notes/Object Oriented Programming.md",
+    "Programming notes/Binary Trees.md",
+    "My Programming Notes.base",
+    "Untitled.md",
+    "Programming notes/red-black Trees.md",
+    "My Programming notes.md",
+    "Programming notes/Adjacency List Graph.md",
+    "Programming notes",
+    "Programming notes/Extracting from Nested Data Structures.md",
+    "Drawing 2026-02-05 14.10.34.excalidraw.md",
+    "Programming notes/methods.md",
     "OOP.md",
-    "2026-02-05.md",
-    "Untitled.base"
+    "2026-02-05.md"
   ]
 }

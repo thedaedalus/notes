@@ -11,7 +11,7 @@ class Node:
         
 ```
 
-### 1. Preorder(node,left,right)
+### 1. Preorder(node, left, right)
 
 ```Python
     def preorder(node, visited):
@@ -31,7 +31,7 @@ class Node:
     
 ```
 
-### 2. Inorder(left,node,right)
+### 2. Inorder(left, node, right)
 
 ```Python
     def inorder(node, visited):
@@ -62,7 +62,7 @@ def postorder(node, visited):
 ```
 when apart of a class no need to the explicit check on the node. but you need checks on the left and right branches
 
-### 4. Exists(node,left,right)
+### 4. Exists(node, left, right)
 
 ```Python
 def exists(self, val):

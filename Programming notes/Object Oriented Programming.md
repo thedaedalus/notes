@@ -17,7 +17,7 @@ p = Player("Alice")  # p is an object
 - `self` refers to “this particular instance”
 ### 3. Encapsulation
 
-- Group related data and behavior together in a class.
+- Group related data and behaviour together in a class.
 - Hide internal details, expose a clear interface.
 - Use naming conventions for privacy:
   - `_name`: “internal use” (convention).
@@ -25,7 +25,7 @@ p = Player("Alice")  # p is an object
 
 ### 4. Inheritance
 
-- A class can **inherit** from another class and reuse/extend its behavior.
+- A class can **inherit** from another class and reuse/extend its behaviour.
 - Parent/base/superclass → child/subclass.
 - Child class inherits attributes and methods from parent class.
 - In Python:
