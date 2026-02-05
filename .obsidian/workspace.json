@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "binary_trees.md",
+                "file": "OOP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "binary_trees"
+              "title": "OOP"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "binary_trees.md",
+                "file": "OOP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for binary_trees"
+              "title": "Backlinks for OOP"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "binary_trees.md",
+                "file": "OOP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from binary_trees"
+              "title": "Outgoing links from OOP"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "binary_trees.md",
+                "file": "OOP.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of binary_trees"
+              "title": "Outline of OOP"
             }
           },
           {
@@ -195,6 +195,14 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "1f82c314a40b838b",
-  "lastOpenFiles": []
+  "active": "5cbfc4a05daf8130",
+  "lastOpenFiles": [
+    "extracting_info_nested_data_structures.md",
+    "methods.md",
+    "OOP.md",
+    "red-black Trees.md",
+    "for loops.md",
+    "examples.md",
+    "Binary Trees.md"
+  ]
 }
