@@ -19,7 +19,7 @@
 
 - **Class**: a blueprint (defines data + behaviour).
 - **Object/ Instance**: a concrete thing created from a class.
-  - In Python:
+- In Python:
 
 ```python
  class Player:
