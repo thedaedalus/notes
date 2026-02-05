@@ -16,11 +16,11 @@
 
 ### 1. Class and Object
 
->
+
 - **Class**: a blueprint (defines data + behaviour).
 - **Object/ Instance**: a concrete thing created from a class.
   - In Python:
->>>
+
 ```python
  class Player:
     def __init__(self, name):
@@ -28,28 +28,29 @@
 
  p = Player("Alice")  # p is an object
  ```
->>>
+
 ### 2. Attributes and Methods
->
+
 - **Attributes**: data stored on an object (fields).
 - **Methods**: functions defined inside a class that operate on the object.
 - `self` refers to “this particular instance”
->
+
+
 ### 3. Encapsulation
->
+
 - Group related data and behavior together in a class.
 - Hide internal details, expose a clear interface.
 - Use naming conventions for privacy:
   - `_name`: “internal use” (convention).
   - `_name`: name-mangled, harder to access from outside.
->
+
 ### 4. Inheritance
->
+
 - A class can **inherit** from another class and reuse/extend its behavior.
 - Parent/base/superclass → child/subclass.
 - Child class inherits attributes and methods from parent class.
 - In Python:
->>
+
 ```python
 class Enemy:
      pass
@@ -57,15 +58,15 @@ class Enemy:
 class Dragon(Enemy):  # Dragon is an Enemy
     pass
 ```
->>
->- Use `super()` to call parent methods:
->>
+
+- Use `super()` to call parent methods:
+
 ```python
 super().__init__(...)
 ```
->>
+
 ### 5. Polymorphism
->
+
 - Different classes can provide the same method name but with different implementations.
 - Code can call `obj.do_thing()` without knowing the exact type, as long as that method exists.
 - Common with overridden methods in subclasses.
@@ -77,10 +78,10 @@ super().__init__(...)
     - `__eq__(self, other)` → `a == b`
     - `__lt__(self, other)` → `a < b`
     - `__str__(self)` → `str(a)` / `print(a)`
->
+
 - **Table of Special Methods** [Link to special method Python Docs](https://docs.python.org/3/reference/datamodel.html#special-method-names)
->
->>
+
+
 | Operation             | Operator | Method        |
 |----------------------:|:--------:|:--------------|
 | Addition              | `+`      | `__add__`     |
@@ -135,25 +136,25 @@ class Card:
     def __str__(self):
         return f"{self.rank} of {self.suit}"
 ```
->>
+
 ### 6. Abstraction
->
+
 - Focus on **what** an object does, not **how** it does it.
 - Hide complex internals behind simple methods.
 - Example idea: `shape.area()` without caring how circles vs rectangles compute it.
->
+
 ### 7. Composition
->
+
 - Build complex objects by combining other objects.
 - “Has-a” relationship instead of “is-a”.
 - Example: `Car` has an `Engine` object as an attribute.
->
+
 ### 8. Method Types (Python-specific)
->
+
 - **Instance methods**: `def method(self, ...)` → act on one object.
 - **Class methods**: `@classmethod def method(cls, ...)` → act on the class.
 - **Static methods**: `@staticmethod def method(...)` → utility, no self or cls.
->
+
 ## Geometry concepts used
 
 - Inheritance and `super()`
