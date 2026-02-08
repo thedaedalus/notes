@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming notes/Binary Trees.md",
+                "file": "Programming notes/Markdown Regex.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Binary Trees"
+              "title": "Markdown Regex"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming notes/Binary Trees.md",
+                "file": "Programming notes/Markdown Regex.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Binary Trees"
+              "title": "Outline of Markdown Regex"
             }
           },
           {
@@ -197,6 +197,9 @@
   },
   "active": "5f462475b9625905",
   "lastOpenFiles": [
+    "My Programming Notes.base",
+    "Programming notes/Markdown Regex.md",
+    "Programming notes/Binary Trees.md",
     "Programming notes/Adjacency List Graph.md",
     "Programming notes/examples.md",
     "Programming notes/Breadth-First Search (BFS).md",
@@ -204,8 +207,6 @@
     "Programming notes/for loops.md",
     "Programming notes/Counting with dictionary.md",
     "Programming notes/Object Oriented Programming.md",
-    "Programming notes/Binary Trees.md",
-    "My Programming Notes.base",
     "Untitled.md",
     "My Programming notes.md",
     "Programming notes",
