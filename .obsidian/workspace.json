@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming notes/Markdown Regex.md",
-                "mode": "source",
+                "file": "Programming notes/examples.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Markdown Regex"
+              "title": "examples"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OOP.md",
+                "file": "Programming notes/examples.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for OOP"
+              "title": "Backlinks for examples"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OOP.md",
+                "file": "Programming notes/examples.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from OOP"
+              "title": "Outgoing links from examples"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming notes/Markdown Regex.md",
+                "file": "Programming notes/examples.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Markdown Regex"
+              "title": "Outline of examples"
             }
           },
           {
@@ -197,22 +197,26 @@
   },
   "active": "5f462475b9625905",
   "lastOpenFiles": [
-    "My Programming Notes.base",
-    "Programming notes/Markdown Regex.md",
-    "Programming notes/Binary Trees.md",
-    "Programming notes/Adjacency List Graph.md",
-    "Programming notes/examples.md",
-    "Programming notes/Breadth-First Search (BFS).md",
-    "Programming notes/red-black Trees.md",
-    "Programming notes/for loops.md",
     "Programming notes/Counting with dictionary.md",
+    "Programming notes/for loops.md",
+    "Programming notes/red-black Trees.md",
     "Programming notes/Object Oriented Programming.md",
+    "Programming notes/methods.md",
+    "Programming notes/Adjacency List Graph.md",
+    "Programming notes/Binary Trees.md",
+    "Programming notes/Breadth-First Search (BFS).md",
+    "Projects/RPG Game/Game Design Doc.md",
+    "My Programming Notes.base",
+    "Programming notes/Tests.md",
+    "Projects/RPG Game",
+    "Projects",
+    "Programming notes/Markdown Regex.md",
+    "Programming notes/examples.md",
     "Untitled.md",
     "My Programming notes.md",
     "Programming notes",
     "Programming notes/Extracting from Nested Data Structures.md",
     "Drawing 2026-02-05 14.10.34.excalidraw.md",
-    "Programming notes/methods.md",
     "OOP.md",
     "2026-02-05.md"
   ]

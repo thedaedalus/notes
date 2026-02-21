@@ -7,7 +7,7 @@ for i in ints:
     print(i)
 ```
 
--nesting for loops to iterate trough multiple lists
+- nesting for loops to iterate trough multiple lists
 
 ```python
 for x in pos:

@@ -16,7 +16,7 @@ A regex by itself won't be sufficient to fully parse text into Markdown, as Mark
     
 8.  Blockquote: `^>\s*(.+)$`
     
-9.  Code block: `^```(?:\s*(\w+))?([\s\S]*?)^```$`
+9.  Code block: `aand `
     
 10. Links: `\[(.*?)\]\((.*?)\s?(?:"(.*?)")?\)`
     
